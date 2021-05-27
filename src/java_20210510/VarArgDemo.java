@@ -17,6 +17,4 @@ public class VarArgDemo {
 		System.out.println(s1);
 		
 	}
-	
-	
 }
