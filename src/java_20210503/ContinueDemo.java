@@ -8,7 +8,6 @@ public class ContinueDemo {
 		for(int i = 1; i<=10; i++) {
 			if(i==6) continue;		
 			sum += i;
-			
 			/*
 			if(i!=6) {
 				sum += i;

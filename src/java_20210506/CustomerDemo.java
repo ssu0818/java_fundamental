@@ -10,11 +10,13 @@ public class CustomerDemo {
 		c1.balance = 1_000_000;
 		c1.released = false;
 //		c1.interestRate = 6.2;
+		
 		//클래스변수(static 변수)는 클래스 이름으로 접근하는 것이 관례
 		//변수로도 접근가능하나 권장하지 않음 예) c1.interestRate = 6.2
 		Customer.interestRate = 6.2; 
+
 		//final 변수는 값을 재할당 할 수 없음
-		//Customer.BANKNAME = "국민은행";
+//		Customer.BANKNAME = "국민은행";
 		
 		System.out.printf("%s, %d, %s, %s, %f, %s %n", c1.name, c1.age, c1.email, c1.phone, c1.balance, c1.released);
 
